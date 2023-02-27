@@ -17,6 +17,12 @@ header {
     color: #FFFFFF;
 }
 
+.logo:hover {
+    color: #000000;
+    text-shadow: 0px 0px 5px white;
+    transition: 0.5s ease-in-out;
+}
+
 .navbar {
     width: 70%;
     height: 100px;
@@ -40,6 +46,13 @@ header {
         line-height: 22px;  
         color: #FFFFFF;
         padding: 20px;
+        cursor: pointer;
+    }
+
+    li:hover {
+        color: #000000;
+        text-shadow: 0px 0px 2px rgb(255, 255, 255);
+        transition: 0.5s ease-in-out;
     }
 }
 
@@ -131,5 +144,11 @@ header {
         font-size: 24px;
         cursor: pointer;
         color: white;
+    }
+
+    .nav-dots:hover {
+        color: #000000;
+        text-shadow: 0px 0px 5px white;
+        transition: 0.5s ease-in-out;
     }
 }
